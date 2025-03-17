@@ -45,12 +45,6 @@ docker build -t hitruong05/sentiment-analyzer-frontend .
 docker run -p 5173:80 hitruong05/sentiment-analyzer-frontend
 ```
 
-### Push to Docker Hub
-```sh
-docker tag hitruong05/sentiment-analyzer-frontend:latest hitruong05/sentiment-analyzer-frontend:latest
-docker push hitruong05/sentiment-analyzer-frontend:latest
-```
-
 ## 📜 License
 This project is licensed under the **MIT License**.
 
